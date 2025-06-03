@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="TOP_CENTER" spacing="10" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="MainController">
+    <TextField fx:id="nameField" promptText="Product Name"/>
+    <TextField fx:id="categoryField" promptText="Category"/>
+    <TextField fx:id="quantityField" promptText="Quantity"/>
+    <Button text="Add Product" onAction="#addProduct"/>
+    <PieChart fx:id="pieChart"/>
+</VBox>
